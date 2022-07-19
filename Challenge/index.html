@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My-calculator</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="calculater-color">
+		<input id="result" disabled>
+		<table class="calculater-table">
+		<tr>
+			<td onclick="result.value+=1" class="numbers-bottuns">1</td>
+			<td onclick="result.value+=2" class="numbers-bottuns">2</td>
+			<td onclick="result.value+=3" class="numbers-bottuns">3</td>
+			<td onclick="result.value+='+'" class="operation-bottuns">+</td>
+		</tr>
+		<tr>
+			<td onclick="result.value+=4"class="numbers-bottuns">4</td>
+			<td onclick="result.value+=5"class="numbers-bottuns">5</td>
+			<td onclick="result.value+=6"class="numbers-bottuns">6</td>
+			<td onclick="result.value+='-'" class="operation-bottuns">-</td>
+		</tr>
+		
+		<tr>
+			<td onclick="result.value+=7"class="numbers-bottuns">7</td>
+			<td onclick="result.value+=8"class="numbers-bottuns">8</td>
+			<td onclick="result.value+=9"class="numbers-bottuns">9</td>
+			<td onclick="result.value+='*'" class="operation-bottuns">*</td>
+		</tr>
+		
+		<tr>
+			<td onclick="result.value+=C" class="clear-out">C</td>
+			<td onclick="result.value+=0"class="numbers-bottuns">0</td>
+			<td onclick="result.value+='='" class="operation-bottuns">=</td>
+			<td onclick="result.value+='/'" class="operation-bottuns">/</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

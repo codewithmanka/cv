@@ -1,0 +1,38 @@
+body {
+    background-color: #C7D36F;
+    line-height: 1.5;
+}
+
+#result {
+    height: 50px;
+    width: 400px;
+    margin-top: 5%;
+}
+
+.calculater-color {
+    background-color: #7FB5FF;
+    margin: auto;
+    height: 460px;
+    width: 460px;
+    text-align: center;
+}
+
+.calculater-table {
+    margin-left: 5%;
+    width: 90%;
+    height: 350px;
+    border-radius: solid 2px;
+
+}
+
+.operation-bottuns {
+    background-color: #FFEF82;
+}
+
+.numbers-bottuns {
+    background-color: #FEFBF6;
+}
+
+.clear-out {
+    background-color: #FF8B8B;
+}
